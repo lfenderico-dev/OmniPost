@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h1{
+        @apply text-4xl font-bold;
+    }
+    .h2 {
+        @apply text-2xl font-bold;
+    }
+    .p {
+        @apply text-[16px] opacity-75;
+    }
+    .button1 {
+        @apply bg-blue-500 text-white rounded-md py-2 hover:bg-blue-400 text-lg;
+    }
+    .button2 {
+        @apply bg-blue-100 text-blue-700 rounded-md py-2 hover:bg-blue-50 text-lg;
+    }
+    .card {
+        @apply bg-white rounded-lg shadow-md shadow-blue-500 p-4;
+    }
+    .icon {
+        @apply text-4xl text-blue-500;
+    }
+}
