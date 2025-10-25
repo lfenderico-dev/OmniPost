@@ -16,11 +16,11 @@
             <div class="flex flex-col gap-4">
                 <p class="p text-center">Supported social media</p>
                 <div class="grid grid-cols-3 gap-x-6 gap-y-2 items-center">
-                    <NuxtImg src="/socialMedia/yt.avif" alt="youtube" class="size-18 object-cover"/>
-                    <NuxtImg src="/socialMedia/tik tok.avif" alt="tik tok" class="size-18 object-cover"/>
-                    <NuxtImg src="/socialMedia/ig.avif" alt="instagram" class="size-18 object-cover"/>
-                    <NuxtImg src="/socialMedia/Linkedin.avif" alt="Linkedin" class="size-18 object-cover"/>
-                    <NuxtImg src="/socialMedia/X.avif" alt="X" class="size-8 object-cover"/>
+                    <NuxtImg src="/socialMedia/yt.avif" alt="youtube" class="size-18 object-contain"/>
+                    <NuxtImg src="/socialMedia/tik tok.avif" alt="tik tok" class="size-18 object-contain"/>
+                    <NuxtImg src="/socialMedia/ig.avif" alt="instagram" class="size-18 object-contain"/>
+                    <NuxtImg src="/socialMedia/Linkedin.avif" alt="Linkedin" class="size-18 object-contain"/>
+                    <NuxtImg src="/socialMedia/X.avif" alt="X" class="size-8 object-contain"/>
                 </div>
             </div>
             

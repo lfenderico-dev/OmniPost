@@ -2,10 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxt/fonts',
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxtjs/tailwindcss'
-  ]
+  modules: ['@nuxt/ui', '@nuxt/image'],
+  css: ['~/assets/css/tailwind.css'],
+
 })
